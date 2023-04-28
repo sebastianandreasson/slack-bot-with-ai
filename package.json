@@ -4,7 +4,8 @@
   "description": "My current go-to templates for websites, different branches for different stacks maybe",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "server": "node ./lib/index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,12 @@
     "@emotion/styled": "^11.10.6",
     "@mantine/core": "^6.0.9",
     "@mantine/hooks": "6.0.9",
+    "@slack/web-api": "^6.8.1",
     "@tabler/icons-react": "^2.17.0",
+    "axios": "^1.3.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
